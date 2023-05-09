@@ -7,7 +7,7 @@
 #
 FROM python:3.11
 
-RUN pip install geopandas openpyxl jupyter
+RUN pip install geopandas openpyxl jupyter xlrd
 RUN pip install --upgrade ipykernel
 
 WORKDIR /research
